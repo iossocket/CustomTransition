@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		50AC5F311CAF68C400134C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC5F301CAF68C400134C72 /* AppDelegate.swift */; };
-		50AC5F331CAF68C400134C72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC5F321CAF68C400134C72 /* ViewController.swift */; };
+		50AC5F331CAF68C400134C72 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC5F321CAF68C400134C72 /* FirstViewController.swift */; };
 		50AC5F361CAF68C400134C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AC5F341CAF68C400134C72 /* Main.storyboard */; };
 		50AC5F381CAF68C400134C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AC5F371CAF68C400134C72 /* Assets.xcassets */; };
 		50AC5F3B1CAF68C400134C72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AC5F391CAF68C400134C72 /* LaunchScreen.storyboard */; };
+		50AC5F431CAF69A500134C72 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC5F421CAF69A500134C72 /* SecondViewController.swift */; };
+		50AC5F461CAF6B0600134C72 /* CustomNavigationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AC5F451CAF6B0600134C72 /* CustomNavigationTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50AC5F2D1CAF68C400134C72 /* CustomTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AC5F301CAF68C400134C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		50AC5F321CAF68C400134C72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50AC5F321CAF68C400134C72 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		50AC5F351CAF68C400134C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50AC5F371CAF68C400134C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50AC5F3A1CAF68C400134C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50AC5F3C1CAF68C400134C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AC5F421CAF69A500134C72 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		50AC5F451CAF6B0600134C72 /* CustomNavigationTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		50AC5F2F1CAF68C400134C72 /* CustomTransition */ = {
 			isa = PBXGroup;
 			children = (
-				50AC5F301CAF68C400134C72 /* AppDelegate.swift */,
-				50AC5F321CAF68C400134C72 /* ViewController.swift */,
+				50AC5F441CAF6A1300134C72 /* Config */,
+				50AC5F321CAF68C400134C72 /* FirstViewController.swift */,
+				50AC5F421CAF69A500134C72 /* SecondViewController.swift */,
+				50AC5F451CAF6B0600134C72 /* CustomNavigationTransition.swift */,
 				50AC5F341CAF68C400134C72 /* Main.storyboard */,
+			);
+			path = CustomTransition;
+			sourceTree = "<group>";
+		};
+		50AC5F441CAF6A1300134C72 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				50AC5F301CAF68C400134C72 /* AppDelegate.swift */,
 				50AC5F371CAF68C400134C72 /* Assets.xcassets */,
 				50AC5F391CAF68C400134C72 /* LaunchScreen.storyboard */,
 				50AC5F3C1CAF68C400134C72 /* Info.plist */,
 			);
-			path = CustomTransition;
+			name = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AC5F331CAF68C400134C72 /* ViewController.swift in Sources */,
+				50AC5F431CAF69A500134C72 /* SecondViewController.swift in Sources */,
+				50AC5F331CAF68C400134C72 /* FirstViewController.swift in Sources */,
+				50AC5F461CAF6B0600134C72 /* CustomNavigationTransition.swift in Sources */,
 				50AC5F311CAF68C400134C72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
